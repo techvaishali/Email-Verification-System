@@ -44,8 +44,7 @@ Entry_2.place(relx=0.52, rely=0.65, anchor=SW,height=55,width=350)
 
 
 Button(master, text="LOGIN",bg="black",fg="white",command=login ,font=('Castellar', 20,'italic','bold')).place(relx=0.26, rely=0.74, anchor=CENTER)
-Button(master,text="RESET",bg="black",fg="white",font=('Castellar', 20,'italic','bold')).place(relx=0.5, rely=0.74, anchor=CENTER)
-Button(master,text="EXIT",bg="black",fg="white",font=('Castellar', 20,'italic','bold'),command = master.quit).place(relx=0.72, rely=0.74, anchor=CENTER)
+Button(master,text="CREATE NEW ACCOUNT",bg="black",fg="white",font=('Castellar', 20,'italic','bold')).place(relx=0.5, rely=0.74, anchor=CENTER)
 
 
 
