@@ -7,12 +7,12 @@ def second_win():
     window = Tk()
     window.title("Welcome To New Window")
     window.geometry('1000x500+100+50')
-    Label(window,text='EMail VERIFICATION CODE',relief='raised',font=('arial', 12 ,'bold')).place(x=30,y=70)
+    Label(window,text='WELCOME TO YOUR ACCOUNT',relief='raised',font=('arial', 12 ,'bold')).place(x=30,y=70)
 
 def login():
     username = Entry_1.get()
     Password = Entry_2.get()
-    usernamme=str(username)
+    username=str(username)
     Password=str(Password)
     print(username, Password)
     if username=="" or Password=="":
@@ -21,9 +21,8 @@ def login():
         window = Tk()
         window.title("Welcome To New Window")
         window.geometry('1000x500+100+50')
-        Label(window, text='EMail VERIFICATION CODE', relief='raised', font=('arial', 12, 'bold')).place(x=30, y=70)
-        Entry(window,borderwidth=3,show='.',font=('arial',12,'bold')).pack()
-        Button(window,text='SUBMIT',bg="darkblue",fg="white",relief="flat",font=('arial',10,'bold')).pack(ipadx=0,ipady=0,anchor=NW,side=LEFT)
+        Label(window, text='WELCOME TO YOUR ACCOUNT', relief='raised', font=('arial', 12, 'bold')).place(x=30, y=70)
+        
     else:
          messagebox.showerror("ERROR","INVALID USERNAME AND PASSWORD")
 
