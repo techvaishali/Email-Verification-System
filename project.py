@@ -28,7 +28,7 @@ def login():
         Button(window,text='SUBMIT',bg="darkblue",fg="white",relief="flat",font=('arial',10,'bold')).pack(ipadx=0,ipady=0,anchor=NW,side=LEFT)
     else:
          messagebox.showerror("ERROR","INVALID USERNAME AND PASSWORD")
-Filename = PhotoImage(file=r"C:\\Users\\hp\\Desktop\\joint-project-2161493_1280.png")
+Filename = PhotoImage(file=r"images\\bg.png")
 background_label = Label(master, image=Filename)
 background_label.place(x=0.5, y=0.5, relwidth=1, relheight=1)
 
